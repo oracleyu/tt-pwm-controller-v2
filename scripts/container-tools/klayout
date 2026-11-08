@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+set -euo pipefail
+: "${ASIC_PROJECT_ROOT:?}" "${PDK_ROOT:?}" "${LIBRELANE_IMAGE_OVERRIDE:?}"
+exec docker run --rm --platform linux/arm64 --cpus 2 --memory 3g \
+  -v "$ASIC_PROJECT_ROOT:$ASIC_PROJECT_ROOT" -v "$PDK_ROOT:$PDK_ROOT" \
+  -e PDK_ROOT -e PDK -w "$PWD" --entrypoint "$(basename "$0")" \
+  "$LIBRELANE_IMAGE_OVERRIDE" "$@"

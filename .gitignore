@@ -11,3 +11,16 @@ test/sim_build
 test/__pycache__/
 test/results.xml
 test/gate_level_netlist.v
+.venv/
+.pdk/
+.cache/
+*.vvp
+.precheck-pdk/
+archives/
+
+# Local evidence is delivered in the release archive, not pushed as source.
+reports/
+test/coverage.json
+
+*.zip
+*.gds

@@ -1,0 +1,12 @@
+librelane==3.0.14
+chevron==0.14.0
+GitPython==3.2.1
+mistune==3.4.0
+cairosvg==2.9.1
+yowasp-yosys==0.55.0.0.post944
+requests==2.34.2
+python-frontmatter==1.3.0
+matplotlib==3.10.6
+ciel==2.6.1
+gdstk==0.9.60
+cocotb==2.1.0

@@ -1,0 +1,30 @@
+{
+  "checked_on_local_date": "2026-11-08",
+  "template_url": "https://github.com/TinyTapeout/ttsky-verilog-template",
+  "template_commit": "a42e6662fab316e93b4e26399e21d41664a460b7",
+  "tt_support_url": "https://github.com/TinyTapeout/tt-support-tools",
+  "tt_support_commit": "9d13ff3e3e6202090740110438c6a10c1d62ca0f",
+  "librelane_version": "3.0.14",
+  "image_tag": "ghcr.io/librelane/librelane:3.0.14",
+  "image_arm64_manifest": "sha256:f851ed1ae33a641389239dcf93194a8a2077e39eab9b1afdf8f9321078e49a18",
+  "pdk_variant": "sky130A",
+  "pdk_manager": "ciel==2.6.1",
+  "open_pdks_revision": "8afc8346a57fe1ab7934ba5a6056ea8b43078e71",
+  "library": "sky130_fd_sc_hd",
+  "references": [
+    "https://tinytapeout.com/guides/local-hardening/",
+    "https://github.com/TinyTapeout/tt-gds-action/blob/main/action.yml",
+    "https://github.com/librelane/librelane/releases/tag/3.0.14",
+    "https://github.com/google/skywater-pdk",
+    "https://github.com/TinyTapeout/tt-gds-action/blob/ttsky26d/precheck/action.yml"
+  ],
+  "precheck_pdk_revision": "0536d02d875c8f67dd7cca3902ac457e62f20005",
+  "template_workflow_ref": "ttsky26d",
+  "design_version": "V2",
+  "top_module": "tt_um_oracleyu_pwm_v2",
+  "protocol_id": "0xC2",
+  "baseline_project": "../pwm-asic",
+  "baseline_gds_sha256": "f17db83b7c532c8ee321478071cf30ce1bb42468fa10d1647a9db0c77592fb3c",
+  "repository": "https://github.com/oracleyu/tt-pwm-controller-v2",
+  "author": "oracleyu"
+}
